@@ -1,0 +1,8 @@
+# You can override these variables in a terraform.tfvars file
+# or via environment variables with -var="key=value"
+
+aws_region   = "eu-west-1"
+project_name = "KeepCoding"
+environment  = "dev"
+bucket_name  = "s3taticweb" # The name must be unique throughout the world. It is recommended to
+                            # replace or customize this with -var="bucket_name=your-unique-bucket-name"
